@@ -90,3 +90,17 @@ nombre.capitalize() = # Ejecutando el metodo que hace el texto en Mayus
 #INDICES
 
 # Permite acceder a cierto caracter en una cadena dada
+# Van desde 0 e escriben entre corchetes al lado de la variable 
+# y son apuntadores numéricos a cada caracter.
+
+nombre[1] # Apunta al caracter "O" de la variable
+
+#SLICES
+
+#Funcionan para hacer rebanadas de caracteres
+
+nombre[1:4] # Te trae "omb" de la palabra nombre
+nombre[:4] # Te trae "nomb" de la palabra nombre
+nombre[2:] # Te trae "ombre" de la palabra nombre
+nombre[:4:2] # Te trae "ob" de la palabra nombre por que va de 2 en 2
+nombre[::-1] # Te trae "nombre" en reversa
