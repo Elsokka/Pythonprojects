@@ -72,3 +72,21 @@ print(sumatoria)
 
 #Esto lo que hace es ejecutar la funcion con los parametros dados, guardar el valor 
 #producto de la ejecucion de la funcion y guardarlo en otro objeto 
+
+
+#Cadenas de caracteres
+
+#Metodo: es una funcion especial, que existe para un tipo de dato en particular. 
+#Por ejemplo, si queremos que el texto ingresado se transforme en mayúsculas.
+#Se ejecuta el metodo sobre la variables
+
+nombre.upper() = # Ejecutando el metodo que hace el texto en Mayus
+
+nombre.capitalize() = # Ejecutando el metodo que hace el texto en Mayus
+
+#Se ejecuta el metodo sobre la variables
+
+
+#INDICES
+
+# Permite acceder a cierto caracter en una cadena dada
