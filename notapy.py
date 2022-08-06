@@ -1,21 +1,23 @@
+# >>>>>>   Variables : Contenedor de objetos
 
-# Variables : Contenedor de objetos
 
 num_1 = 3
 num_2 = 4
 nombre = "Facundo"
 
-# Tipos de datos : Enteros, Flotantes, Strings y Booleanos
-# Con estos tipos de datos podemos hacer operaciones.
+# Tipos de datos : Enteros, Flotantes, Strings y Booleanos con estos tipos de datos podemos hacer operaciones.
 
-#Cambiar de tipo de datos
+# >>>>>> Convertir los tipos de datos
+
 
 num_1 = int(input("Escribe un numero :"))
 nombre = str(num_1)
 print(nombre)
 
-# Operadores logicos
+# >>>>>>> Operadores logicos
 
+
+# %   : El restante de la operacion
 # and : para comparar si dos valores son verdaderos.
 # or  : para comparar si dos valores son falsos.
 # not : para invertir el valor booleano.
@@ -28,7 +30,7 @@ print(nombre)
 #pass : Sirve para saltar esa linea de codigo
 #Triples comillas:  deja escribir una cada mas larga de caractares
 
-# Funciones : Definimos una funciones que se repite y luego la invocamos.
+# >>>>>> Funciones : Definimos una funciones que se repite y luego la invocamos.
 
 
 def imprimir_mensaje():
@@ -39,7 +41,7 @@ imprimir_mensaje()
 
 # Estas pueden tener parametros
 # La funcion se ejecuta teniendo en cuenta el parametro
-# y el valor que le damos, asi como el impacto que tiene dentro de la funcion
+# El valor que le damos, asi como el impacto que tiene dentro de la funcion
 
 def conversacion(mensaje):
     print("Hola")
@@ -57,8 +59,7 @@ else:
     print("El valor ingresado no corresponde a un numero valido")
 
 
-# Si queremos aprovechar el resultado de ejecutar la función debemos utilizar 
-# el objeto "return"
+# Si queremos aprovechar el resultado de ejecutar la funcion debemos utilizar el objeto "return"
 
 def suma(a, b):
     print("Se suman dos numeros")
@@ -68,14 +69,14 @@ def suma(a, b):
 sumatoria = suma(1, 4)
 print(sumatoria)
 
-#Esto lo que hace es ejecutar la funcion con los parametros dados, guardar el valor 
-#producto de la ejecucion de la funcion y guardarlo en otro objeto 
+#Esto lo que hace es ejecutar la funcion con los parametros dados, guardar el valor producto de la ejecucion de la funcion y guardarlo en otro objeto 
 
 
-#Cadenas de caracteres
+# >>>>>> Cadenas de caracteres
+
 
 #Metodo: es una funcion especial, que existe para un tipo de dato en particular. 
-#Por ejemplo, si queremos que el texto ingresado se transforme en mayúsculas.
+#Por ejemplo, si queremos que el texto ingresado se transforme en mayusculas.
 #Se ejecuta el metodo sobre la variables
 
 nombre.upper()  # Ejecutando el metodo que hace el texto en Mayus
@@ -87,15 +88,15 @@ nombre.replace(" ", "")
 #Se ejecuta el metodo sobre la variables
 
 
-#INDICES
+#>>>>>>>> INDICES
 
 # Permite acceder a cierto caracter en una cadena dada
 # Van desde 0 e escriben entre corchetes al lado de la variable 
-# y son apuntadores numéricos a cada caracter.
+# y son apuntadores numericos a cada caracter.
 
 nombre[1] # Apunta al caracter "O" de la variable
 
-#SLICES
+# >>>>>>>> SLICES
 
 #Funcionan para hacer rebanadas de caracteres
 
@@ -105,10 +106,9 @@ nombre[2:] # Te trae "ombre" de la palabra nombre
 nombre[:4:2] # Te trae "ob" de la palabra nombre por que va de 2 en 2
 nombre[::-1] # Te trae "nombre" en reversa
 
-# BUCLES
+# >>>>>>> BUCLES
 
-#Nos permite repetir un bloque de codigo de manera costante bajo
-#unos parametro
+#Nos permite repetir un bloque de codigo de manera costante bajo unos parametro
 
 # >>>> While
 
@@ -129,10 +129,32 @@ def init():
 
 # >>>>>> FOR
 
+
 for contador in range(1000):
     print(contador)
+
 #Para el contador varia en el rango, es una variable
 # Range = Rango de la variable rango(0:100)
 
-# >>> Recorrer una cadena de texto
 
+
+
+# >>> Interrumpir un ciclo : Modificar el funcionamiento del bucle
+
+# continue: Se salta el reto del codigo y empieza desde el principio
+
+for contador in range(1000): #Ejemplo 1
+        if contador % 2 != 0:
+            continue 
+        print(contador)
+
+
+
+# Break : Finalizar un bloque de codigo
+
+for i in range(10000):   #Ejemplo 2
+        print(i)
+        if i == 5778:
+            break
+
+# >>>>>
