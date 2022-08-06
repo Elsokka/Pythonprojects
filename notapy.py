@@ -105,3 +105,14 @@ nombre[:4] # Te trae "nomb" de la palabra nombre
 nombre[2:] # Te trae "ombre" de la palabra nombre
 nombre[:4:2] # Te trae "ob" de la palabra nombre por que va de 2 en 2
 nombre[::-1] # Te trae "nombre" en reversa
+
+# Bucles
+
+#Nos permite repetir un bloque de codigo de manera costante bajo
+#unos parametro
+
+# >>>> While
+
+# Ciclo que se ejecuta con una dos partes fundamentales
+# Limite y una variable
+# La pieza de codigo se ejecuta hasta que se llega al limite
