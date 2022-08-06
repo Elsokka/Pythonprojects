@@ -8,8 +8,7 @@ nombre = "Facundo"
 # Tipos de datos : Enteros, Flotantes, Strings y Booleanos
 # Con estos tipos de datos podemos hacer operaciones.
 
-
-#Cambiar de tipo de dato
+#Cambiar de tipo de datos
 
 num_1 = int(input("Escribe un numero :"))
 nombre = str(num_1)
@@ -38,7 +37,6 @@ def imprimir_mensaje():
 
 imprimir_mensaje()
 
-
 # Estas pueden tener parametros
 # La funcion se ejecuta teniendo en cuenta el parametro
 # y el valor que le damos, asi como el impacto que tiene dentro de la funcion
@@ -59,7 +57,7 @@ else:
     print("El valor ingresado no corresponde a un numero valido")
 
 
-# Si queremos aprovecahr el resultado de ejecutar la función debemos utilizar 
+# Si queremos aprovechar el resultado de ejecutar la función debemos utilizar 
 # el objeto "return"
 
 def suma(a, b):
@@ -77,12 +75,15 @@ print(sumatoria)
 #Cadenas de caracteres
 
 #Metodo: es una funcion especial, que existe para un tipo de dato en particular. 
+
 #Por ejemplo, si queremos que el texto ingresado se transforme en mayúsculas.
 #Se ejecuta el metodo sobre la variables
 
-nombre.upper() = # Ejecutando el metodo que hace el texto en Mayus
+nombre.upper()  # Ejecutando el metodo que hace el texto en Mayus
 
-nombre.capitalize() = # Ejecutando el metodo que hace el texto en Mayus
+nombre.capitalize()  # Ejecutando el metodo que hace el texto en Mayus
+
+nombre.replace(" ", "")
 
 #Se ejecuta el metodo sobre la variables
 
