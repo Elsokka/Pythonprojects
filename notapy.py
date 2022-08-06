@@ -157,4 +157,79 @@ for i in range(10000):   #Ejemplo 2
         if i == 5778:
             break
 
-# >>>>>
+# >>>>> Almacenar varios valores en una variable
+
+nums =[1,3,4,5,6,56,89]
+
+# Para acceder a un objeto de mi lista debo seleccionarlo
+
+objeto = nums[2]
+
+#Puedo agregar y eliminar objetos
+
+nums.append(3) # agrega el objeto a lista
+nums.pop(4) # Elimina el objeto que esta en el indice 4
+
+for elemento in nums: # Para recorrer la lista
+    print(elemento)
+
+
+# Podemos de igual forma operar con listas
+
+nums_2 = [4,3,6,2,4]
+
+lista_final = nums + nums_2
+
+lista_finalpor5 = nums * 5
+
+#Puedo usar los slices en las listas
+
+
+nums[1:4] # Trae solo los elementos en ese rango de la lista
+
+# Para covertir una lista en un string
+
+
+# password = "".join(password)
+
+
+
+# >>>> Tuplas 
+# Objetos estaticos
+
+mi_tupla = (2,3,21,43,53)
+
+
+# >>>>>> Diccionarios : Una estructura de llaves y valores
+#Accedemos a los elementos del diccionario a traves de la llave
+
+mi_diccionario = {
+    "Brasil" : 108_989_873,
+    "Colombia" : 1_000_000,
+    "Argentina" : 123_827_232,
+}
+print(mi_diccionario["llave 1"]) # Nos permite ir a mi diccionario, y abrr lo que esta en la llave 1
+
+#Tambien puedo recorrer datos con for en los diccionario
+
+for pais in mi_diccionario.keys():
+    print(pais) #Imrime la llaves del dic
+
+
+for pais in mi_diccionario.values():
+    print(pais) #Imrime los valoeres de la llaves del dic
+
+
+for pais, poblacion in mi_diccionario.items():
+    print(f"{pais} tiene la poblacion de {poblacion}") #Imprime los valores de la llaves del dic y las llaves
+
+
+#  .keys()  > Retorna la clave de nuestro elemento
+
+#  .values() > Retorna una lista de elementos (valores del diccionario)
+
+#  .items()  > Devuelve lista de tuplas (primero la clave y luego el valor)
+
+#  .clear()  > Elimina todos los items del diccionario
+
+#  .pop(“n”) > Elimina el elemento ingresado
