@@ -75,7 +75,6 @@ print(sumatoria)
 #Cadenas de caracteres
 
 #Metodo: es una funcion especial, que existe para un tipo de dato en particular. 
-
 #Por ejemplo, si queremos que el texto ingresado se transforme en mayúsculas.
 #Se ejecuta el metodo sobre la variables
 
@@ -106,7 +105,7 @@ nombre[2:] # Te trae "ombre" de la palabra nombre
 nombre[:4:2] # Te trae "ob" de la palabra nombre por que va de 2 en 2
 nombre[::-1] # Te trae "nombre" en reversa
 
-# Bucles
+# BUCLES
 
 #Nos permite repetir un bloque de codigo de manera costante bajo
 #unos parametro
@@ -116,3 +115,24 @@ nombre[::-1] # Te trae "nombre" en reversa
 # Ciclo que se ejecuta con una dos partes fundamentales
 # Limite y una variable
 # La pieza de codigo se ejecuta hasta que se llega al limite
+
+def init():
+    LIMIT = 100
+    contador = 0
+    potencia_2 = 2**contador
+    while potencia_2 < LIMIT:
+        print(f" 2 elevado a la {contador} es igual a: {potencia_2}")
+        contador = contador + 1
+        potencia_2 = 2**contador
+
+
+
+# >>>>>> FOR
+
+for contador in range(1000):
+    print(contador)
+#Para el contador varia en el rango, es una variable
+# Range = Rango de la variable rango(0:100)
+
+# >>> Recorrer una cadena de texto
+
