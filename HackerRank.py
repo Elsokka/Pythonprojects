@@ -1,13 +1,12 @@
 def run():
-    n = int(input().strip())
-    if n % 2 != 0:
-        print("Weird")
-    elif n % 2 == 0 and n >= 2 and n<= 5:
-        print("Not Weird")
-    elif n % 2 == 0 and n >= 6 and n<= 20:
-        print("Weird")
-    else:
-        print("Not Weird")
+    pass
+    a = int(input())
+    b = int(input())
+    int_division = a // b
+    float_division = a / b
+    print(int_division)
+    print(float_division)
+    
 
 
 if __name__ == "__main__":
