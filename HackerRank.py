@@ -1,13 +1,8 @@
 def run():
-    pass
-    a = int(input())
-    b = int(input())
-    int_division = a // b
-    float_division = a / b
-    print(int_division)
-    print(float_division)
+     n = int(input())
+     for i in range(n):
+        print(i**2)
     
-
 
 if __name__ == "__main__":
     run()
