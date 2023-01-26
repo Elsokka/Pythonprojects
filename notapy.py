@@ -24,7 +24,7 @@ print(nombre)
 # ==  : Compara dos valores y te dice si son iguales o no.
 # !=  : Compara dos valores y te dice sin son diferentes o no.
 # >   : Compara si es mayor que otro valor.
-# >   : Compara si es menor que otro valor.
+# <   : Compara si es menor que otro valor.
 # >=  : igual o mayor que el valor a comparar.
 # <=  : igual o menor que el valor a comparar.
 #pass : Sirve para saltar esa linea de codigo
@@ -119,7 +119,7 @@ nombre[::-1] # Te trae "nombre" en reversa
 def init():
     LIMIT = 100
     contador = 0
-    potencia_2 = 2**contador
+    potencia_2 = 2**contador # Inicialización 
     while potencia_2 < LIMIT:
         print(f" 2 elevado a la {contador} es igual a: {potencia_2}")
         contador = contador + 1

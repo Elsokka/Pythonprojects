@@ -1,5 +1,4 @@
-def permutacion(x,y,z,n): #Nos ayudara a encontrar las permutaciones posibles de i , j, k teniendo en cuenta X, Y, Z co la restricción n.
-
+from itertools import permutations
 
 
 if __name__ == "__main__":
@@ -9,4 +8,8 @@ if __name__ == "__main__":
     n = int(input())
     
 
-lista_completa = []
+lista_completa = [x, y, z]
+
+permutaciones = list(permutations(lista_completa))
+
+print(permutaciones)
