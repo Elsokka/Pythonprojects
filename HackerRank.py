@@ -10,3 +10,6 @@ def is_leap(year):
 if __name__ == "__main__":
     year = int(input())
     print(is_leap(year))
+
+
+# Se usa conversion de datos, funciones con parametros y condicionales

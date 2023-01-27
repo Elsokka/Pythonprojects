@@ -1,9 +1,11 @@
-def runner():
-
+if __name__ == '__main__':
     n = int(input())
-    arr = map(int, input().split()) #runner-up score : El segundo mas rapido 
-    runner_up = arr[2]
-    print(runner_up)
+    arr = list(map(int, input().split()))
+    arr.sort()
 
-if __name__ == "__main__":
-    runner()
+    runner = arr[n-1]
+    runner_up = 0
+    for i in arr:
+        if i < runner:
+            runner_up = i
+    print(runner_up)

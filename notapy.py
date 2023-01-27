@@ -157,24 +157,41 @@ for i in range(10000):   #Ejemplo 2
         if i == 5778:
             break
 
+
+
 # >>>>> Almacenar varios valores en una variable
 
 nums =[1,3,4,5,6,56,89]
 
 # Para acceder a un objeto de mi lista debo seleccionarlo
 
+nums =[1,3,4,5,6,56,89]
+
 objeto = nums[2]
 
 #Puedo agregar y eliminar objetos
 
+
+nums =[1,3,4,5,6,56,89]
+
 nums.append(3) # agrega el objeto a lista
 nums.pop(4) # Elimina el objeto que esta en el indice 4
 
-for elemento in nums: # Para recorrer la lista
+
+# Para recorrer la lista
+
+
+nums = [1,2,3,4,5]
+
+for elemento in nums: 
     print(elemento)
 
 
+
+
 # Podemos de igual forma operar con listas
+
+nums = [1,2,3,4,5]
 
 nums_2 = [4,3,6,2,4]
 
@@ -182,8 +199,12 @@ lista_final = nums + nums_2
 
 lista_finalpor5 = nums * 5
 
+
+
+
 #Puedo usar los slices en las listas
 
+nums =[1,3,4,5,6,56,89]
 
 nums[1:4] # Trae solo los elementos en ese rango de la lista
 
@@ -210,7 +231,7 @@ mi_diccionario = {
 }
 print(mi_diccionario["llave 1"]) # Nos permite ir a mi diccionario, y abrr lo que esta en la llave 1
 
-#Tambien puedo recorrer datos con for en los diccionario
+#Tambien puedo recorrer datos con for e n los diccionario
 
 for pais in mi_diccionario.keys():
     print(pais) #Imrime la llaves del dic
