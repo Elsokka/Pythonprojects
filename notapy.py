@@ -65,6 +65,8 @@ print(nombre)
 
 # >>>>>>>>> Condicionales 
 
+
+
 opcion = int(input("Elige una opcion (1, 2, 3 ): "))
 
 if opcion == 1:
@@ -341,9 +343,108 @@ print(sumatoria)
 
 #Esto lo que hace es ejecutar la funcion con los parametros dados, guardar el valor producto de la ejecucion de la funcion y guardarlo en otro objeto 
 
+# ---------------------------------------------------------------
 
 
 
+# Conjuntos : Relacionada a la teoria de cojuntos que agrupa elementos que tiene algo en comun 
+
+# Se pueden modificas
+# No tiene orden
+# No permite duplicados
+
+set_countries = {"COL","PER", "MX","BR"}
+
+print(set_countries)
+
+# Generar un cojunto a partir de un string
+
+set_from_string = set("Hola")
+print(set_from_string)
+
+#Generar un cojunto a partir de tuplas
+
+set_from_tuplas = set(("abc", "def"))
+
+#Generar un cojunto a partir de una lista
+
+num = [1,2,3,4,5,1,2,3,4]
+
+set_from_list = set(nums)
+
+print(set_from_list)
+
+nums_list = list(set_from_list)
+
+print(nums_list)
+
+# Como modificar conjuntos 
+
+
+set_countries = {"COL","PER", "MX","BR"}
+
+# Cantidad de elementos
+size = len(set_countries)
+
+#Saber si un elemento existe 
+
+print("COL" in set_countries) # da una respuesta de True o false
+
+
+#Adicionar elementos
+
+set_countries.add("AR")
+
+#Actualizar elementos 
+
+set_countries.update({"UR", "ECU"})
+
+# Remover elementos
+
+set_countries.remove("COL")
+
+set_countries.discard("boli") #Permite tratar de eliminar si no existe
+
+# Elimina absoluatemnte todo 
+
+set_countries.clear()
+
+#Operaciones de conjuntos
+
+set_countries = {"COL","PER", "MX","BR"}
+
+set_countries_2 = {"PER", "AR", "UR"}
+
+#Union 
+
+set_c = set_countries.union(set_countries_2)
+
+print(set_c)
+
+
+#Interseccion
+
+set_c = set_countries.intersection(set_countries_2)
+print(set_c)
+
+# diferencia
+
+set_c = set_countries.difference(set_countries_2)
+print(set_c)
+
+#diferencia simetrica: Union sin los elemtos en comun
+
+set_c = set_countries.symmetric_difference(set_countries_2)
+print(set_c)
 
 
 
+#------------------------------------------
+
+#List comprehensión 
+
+# Aprender a generar lista con un sintxys mas corta y facil de leer
+
+my_list_2 = [element * 2 for element in range(1,11)] #Por cada elemento del iterable, vamos agregar un elemento a lalista 
+
+print(my_list_2)
