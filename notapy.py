@@ -342,6 +342,15 @@ sumatoria = suma(1, 4)
 print(sumatoria)
 
 #Esto lo que hace es ejecutar la funcion con los parametros dados, guardar el valor producto de la ejecucion de la funcion y guardarlo en otro objeto 
+#Se pueden agregar parametros por defecto 
+
+
+def find_volume(length = 1,width = 1, depth = 1):
+    return length * width * depth, width # nos retorna una tupla de valores 
+
+result = find_volume(2,2,2) # si solo quioer enviar un valor (width = 1)
+
+print(result)
 
 # ---------------------------------------------------------------
 
@@ -448,3 +457,8 @@ print(set_c)
 my_list_2 = [element * 2 for element in range(1,11)] #Por cada elemento del iterable, vamos agregar un elemento a lalista 
 
 print(my_list_2)
+
+#Para mas detalles busca el archiv de lost_comprehension.py 
+
+
+
