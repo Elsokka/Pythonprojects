@@ -13,7 +13,8 @@ print(my_list)
 
 # En forma de list comprenhension 
 
-my_list_2 = [element * 2 for element in range(1,11)] #Por cada elemento del iterable, vamos agregar un elemento a lalista 
+
+my_list_2 = [element * 2 for element in range(1,11)] #Por cada elemento del iterable, multiplica por 2 el elemento y lovamos agregar un elemento a lalista 
 
 print(my_list_2)
 
@@ -22,7 +23,7 @@ print(my_list_2)
 # Tambien podemos agregarles condiciones al iterable de forma que 
 #Verifica si se puede agregar el elemento o no 
 
-odd = [i *2 for i in range(1,11) if i % 2 == 0]
+odd = [i *2  for i in range(1,11) if i % 2 == 0] # Acción que vas hacer, teniendo en cuenta los elemento y el rango y esta condición
 print(odd)
 
 
@@ -61,11 +62,11 @@ print(population)
 
 countries = ["COL", "PE", "BR"]
 
-population_2 = {country: random.randint(1,100) for country in countries}
+population_2 = {country: random.randint(1,100) for country in countries} #country es el elemento inventado o element de la lista cpuntries(rango)
 
 print(population_2)
 
-# Iteacción con dos listas 
+# Interacción con dos listas 
 
 names = ["Nico", "Santi", "Gero"]
 ages = [9, 8, 7]

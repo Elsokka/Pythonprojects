@@ -293,7 +293,7 @@ for contador in range(1000):
 
 # >>> Interrumpir un ciclo : Modificar el funcionamiento del bucle
 
-# continue: Se salta el reto del codigo y empieza desde el principio
+# continue: Se salta el resto del codigo y empieza desde el principio
 
 for contador in range(1000): #Ejemplo 1
         if contador % 2 != 0:
