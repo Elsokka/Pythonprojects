@@ -82,7 +82,7 @@ else:
 #------------------------------------------------------------------------------
 
 
-# >>>>>> Cadenas de caracteres
+# >>>>>> Cadenas de caracteres metodos para caracteres
 
 
 #Metodos: es una funcion especial, que existe para un tipo de dato en particular. 
@@ -226,7 +226,7 @@ del mi_diccionario["Colombia"] # elimina el key y value
 
 mi_diccionario.pop("Colombia") # Elima el key y value 
 
-# .items() > Trae los items en una lista de tuplas 
+# .items() > Devuelve lista de tuplas (primero la clave y luego el valor)
 
 #  .keys()  > Retorna la clave de nuestro elemento
 
