@@ -17,7 +17,7 @@ num_2 = 12.12 #Float
 
 #String a detalles
 #Los string se pueden imprimir de esta forma
-
+nombre = "FELIPE"
 print(f"Hola, mi nombre es {nombre}")
 
 
@@ -69,12 +69,12 @@ print(nombre)
 
 opcion = int(input("Elige una opcion (1, 2, 3 ): "))
 
-if opcion == 1:
-    conversacion("Elegiste opcion 1")
+if   opcion == 1:
+    print("Elegiste opcion 1")
 elif opcion == 2:
-    conversacion("Elegiste opcion 2")
+    print("Elegiste opcion 2")
 elif opcion== 3:
-    conversacion("Elegiste opcion 2")
+    print("Elegiste opcion 3")
 else:
     print("El valor ingresado no corresponde a un numero valido")
 
